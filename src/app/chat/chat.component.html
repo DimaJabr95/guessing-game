@@ -1,0 +1,20 @@
+<div fxLayout="row wrap">
+ <div fxFlex="100">
+
+  <div class="chat">
+    <h2>Chat</h2>
+    <div class="chat-messages">
+      <div *ngFor="let message of messages">{{ message }}</div>
+    </div>
+    <div class="chat-input">
+      <input type="text"
+              class="input-style"
+             placeholder="Type your message..."
+              [(ngModel)]="newMessage"
+              (keyup.enter)="sendMessage()">
+      <button class="send-btn"   (click)="sendMessage()">Send</button>
+    </div>
+  </div>
+
+ </div>
+</div>

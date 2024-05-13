@@ -1,0 +1,13 @@
+.input-style {
+  width: 100%;
+}
+
+.send-btn {
+ // background-image: linear-gradient(to right, rgb(255 37 174 / 75%) 10%, rgb(241, 147, 55) 74.4%);
+ background: linear-gradient(45deg, #c02e64, #fc5c4a);
+ transition: 400ms;
+ width: 17%;
+ border-radius: 7px;
+ padding: 9px;
+ margin-top:12px
+}

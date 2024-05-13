@@ -1,0 +1,17 @@
+
+<div fxLayout="row wrap">
+ <div fxFlex="40" class="style-edit">
+  <label for="points">Points:</label>
+    <input type="number" id="points" name="points" [(ngModel)]="points">
+ </div>
+ <div fxFlex="40" class="style-edit" style="margin-left:10px">
+  <label for="multiplier">Multiplier:</label>
+  <input type="number" id="multiplier" name="multiplier" [(ngModel)]="multiplier">
+</div>
+<div fxFlex="100" style="margin-top:10px">
+  <button (click)="submitGuess()" class="start-button">Start</button>
+</div>
+</div>
+
+
+
